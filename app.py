@@ -64,7 +64,7 @@ def predict_spam(text):
 
 examples = [
     ["free prize claim now"],
-    ["win money today"],
+    ["claim your free reward now"],
     ["hey how are you"],
     ["call me when you arrive"],
 ]
