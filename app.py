@@ -62,13 +62,19 @@ def predict_spam(text):
 
     return f"{label} (confidence: {prob:.2f})"
 
+examples = [
+    ["free prize claim now"],
+    ["win money today"],
+    ["hey how are you"],
+    ["call me when you arrive"],
+]
 
 interface = gr.Interface(
     fn=predict_spam,
-    inputs=gr.Textbox(lines=2, placeholder="Enter SMS message..."),
+    inputs=gr.Textbox(lines=2),
     outputs="text",
+    examples=examples,
     title="SMS Spam Detection AI",
-    description="Machine Learning model that detects spam messages using TF-IDF and Logistic Regression."
 )
 
 interface.launch()
