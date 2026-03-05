@@ -1,0 +1,13 @@
+---
+title: Spam Detector
+emoji: 💻
+colorFrom: yellow
+colorTo: red
+sdk: gradio
+sdk_version: 6.8.0
+app_file: app.py
+pinned: false
+short_description: Simple message spam detector
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
