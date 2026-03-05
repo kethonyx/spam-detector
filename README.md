@@ -165,9 +165,7 @@ Dataset size:
 
 # 👨‍💻 Author
 
-Dimash Sailau  
-
-Machine Learning enthusiast interested in building intelligent systems using NLP and modern AI tools.
+Me(Dinmukhamed Sailau) 
 
 ---
 
